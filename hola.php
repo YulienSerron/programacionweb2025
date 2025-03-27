@@ -1,5 +1,5 @@
-<?php echo "hola mundo"; ?>
-<?php// prueba de comentario lineal //
+<?php echo "hola mundo"; 
+// prueba de comentario lineal 
 /* prueba de    
     comentario  
     multilineal*/ ?>
@@ -15,7 +15,13 @@ $nombreCompleto="Juan Perez";
 $Edad=35;
 $estAtura=1.75; //le pondria la mayuscula a la primera letra//
 $numero="10"; //usa comillas y quiere definir un int//
-Apellido='Fernandez'; //le falta el signo de $ (signo de la variable)//
-pais_de_origen="Uruguay"; //le falta el signo de $ (signo de la variable)//
-$salario=$2000; //usa el signo de $ y define otra variable//
+//Apellido='Fernandez';//le falta el signo de $ (signo de la variable)//
+//pais_de_origen="Uruguay"; //le falta el signo de $ (signo de la variable)//
+//$salario=$2000; //usa el signo de $ y define otra variable//
+?>
+
+<?php 
+    //constante son identificadores (nombres) que representan un valor unico y no cambian durante la ejecucion del script//
+    //const gravedad = 9.8;//
+
 ?>
